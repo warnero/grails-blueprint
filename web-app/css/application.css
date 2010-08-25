@@ -1,0 +1,31 @@
+label {
+
+    display: inline-block; /* block float the labels to left column, set a width */
+    float: left;
+    width: 100px;
+    padding: 0;
+    margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+    text-align: right;
+    font-size: 1.1em;
+    clear: both;
+}
+
+legend {
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+input[type=text], input[type=password], input.text, input.title, select {
+    margin: 5px 0 0 10px;
+}
+
+button[type=submit] {
+    display: block;
+    float: right;
+}
+
+input[type=text], input[type=password], input.text, input.title, textarea, select {
+    line-height: .5em;
+    font-size: 1em;
+    border: 1px solid #54555B;
+}
